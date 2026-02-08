@@ -187,13 +187,13 @@ function App() {
       {!yesPressed ? (
         <div className="container" ref={containerRef}>
           <img src={valentineImg} alt="Us" className="valentine-img" />
-          <h1>Will you be my Valentine? 💗</h1>
+          <h1>Will you be my Valentine beb? 💗</h1>
           <div className="buttons">
             <button
               className="btn-yes"
               onClick={() => setYesPressed(true)}
             >
-              Yes 💕
+              Yes 💕💕💕
             </button>
             {/* Placeholder to keep layout stable */}
             {noPos.position === 'absolute' && btnSize && (
@@ -216,7 +216,7 @@ function App() {
           <div className="container success-message" style={{ display: 'block' }}>
             <img src={penguinImg} alt="Penguin" className="penguin-img" />
             <h1 className="success-text">I knew you’d say yes!</h1>
-            <p className="sub-text">And yet they say I got no rizz 🥰💐</p>
+            <p className="sub-text">I know you love me and I love you more 🥰</p>
           </div>
           <canvas ref={confettiCanvasRef} id="confetti"></canvas>
         </>
